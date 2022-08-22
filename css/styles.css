@@ -45,6 +45,22 @@
     margin: 0 auto;
 }
 
+.section-prueba{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.section-prueba .img-prueba{
+    height: 100px;
+    transition: 0.5s;
+}
+
+.section-prueba .img-prueba:hover{
+    height: 200px;
+    padding: 5px;
+}
+
 main{
     height: 80vh;
 }
